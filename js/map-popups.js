@@ -30,18 +30,15 @@ var weddingIcon = L.icon({
 	// Note that all content inside marker.bindpopup ('Inside here') needs to be in a single line otherwise markers won't be displayed on the map
 
 	var marker = L.marker([48.445905, -123.3507607], {icon: woodIcon}).addTo(map)
-	marker.bindPopup('<b>Sylvain and Shona<br><b>1317 McNair St.<br><b>Email:</b> <a href="mailto:slyandsho@gmail.com" class="speciallink">slyandsho@gmail.com</a><br><b>Phone:</b>(250)882-1308/(250)216-0308')
+	marker.bindPopup('<b>Sylvain and Shona<br><b>1317 McNair St.<br><b>Email:</b> <a href="mailto:AlayaBrendan@gmail.com" class="speciallink">AlayaBrendan@gmail.com</a><br><b>Phone:</b>(250)882-1308/(250)216-0308')
 		
 	var marker = L.marker([49.41260270970647, -123.5690389849176], {icon: weddingIcon}).addTo(map)
-	marker.bindPopup('<b>Manfield Mansion - Wedding Place</b><br><b>Address:</b> 934 Selkirk, Victoria, BC<br>')
+	marker.bindPopup('<b>Manfield Mansion - Wedding Place</b><br><b>Address:</b> XYZ Manfield, Gibson, BC<br>')
 	
-	var marker = L.marker([48.419617,-123.370285], {icon: woodIcon}).addTo(map)
-	marker.bindPopup('<b>Parlement Building<br>')	
-
-	var marker = L.marker([48.5637842,-123.46616589], {icon: woodIcon}).addTo(map)
-	marker.bindPopup('<b>Butchart Garden<br>')	
+	var marker = L.marker([49.421331, -123.639739], {icon: woodIcon}).addTo(map)
+	marker.bindPopup('<b>The Gumboot Restaurant<br>')	
 	
-	var marker = L.marker([48.6887002,-123.4115931], {icon: woodIcon}).addTo(map)
+	var marker = L.marker([49.43317055013062, -123.47777803183463], {icon: woodIcon}).addTo(map)
 	marker.bindPopup('<b>Ferry Terminal<br>')	
 
 	var marker = L.marker([48.4233571,-123.37662239], {icon: woodIcon}).addTo(map)

@@ -89,13 +89,13 @@
 
         <!-- Main logo. Dimensions: 260px x 85px -->
         <div id="logo">
-            <a href="#home"><img style="border:none; outline:none;" src="images/logo.jpg"></a>
+            <a href="#home"><img style="border:none; outline:none;" src="images/logo.gif"></a>
         </div>
 
             <div id="navright">
                 <ul>
-                    <li><a href="#info">Ceremony</a></li>
-                    <li><a href="#party2">Party</a></li>
+				    <li><a href="#party2">The Deeds</a></li>                   
+				    <li><a href="#info">Ceremony</a></li>
                     <li><a href="#gallery">Pics</a></li>
                     <li><a href="#rsvp">RSVP</a></li>
                 </ul>
@@ -116,7 +116,7 @@
     <div id="dl-menu" class="dl-menuwrapper">
         <div id="logo2">
             <a href="#home">
-                <img style="border:none; outline:none;" src="images/logo2.jpg">
+                <img style="border:none; outline:none;" src="images/logo2.gif">
             </a>
         </div>
 
@@ -124,7 +124,7 @@
     <!-- Logo3 dimensions: 130px x 50px -->
     <div id="logo3">
         <a href="#home">
-            <img style="border:none; outline:none;" src="images/logo3.jpg">
+            <img style="border:none; outline:none;" src="images/logo3.gif">
         </a>
     </div>
 
@@ -173,8 +173,8 @@
         </div>
         <div class="ss-right ss-container-1">
             <h3>
-                <span>Easter Weekend 2013</span>
-                <div class="description">Two big hearts with a passion for love and life. Having so many amazing friends in common with as much a penchant for entertaining as we do, we've been orbiting each other's worlds since first meeting at Val and Jameson's in 2010. Those worlds collided on a more personal level in 2013 when rocket-fuel-powered falling in love ensued. Soooooo good.... Here we are atop Mount Doug enjoying the gorgeous sunshine and some bubbly.</div>
+                <span>Summer 2020</span>
+                <div class="description">What did you guys meet? Stoye here</div>
             </h3>
         </div>
     </div>
@@ -183,8 +183,8 @@
     <div class="ss-row ss-large">
         <div class="ss-left ss-container-2">
             <h3>
-                <span>Spring 2013</span>
-                <div class="description2">Our Vancouver Island thrift store road trip where we stopped at every thrift and second hand store from Victoria to Nanaimo hunting for Burning Man costumes and other treasures.</div>
+                <span>Xmas 2021</span>
+                <div class="description2">Description here .</div>
             </h3>
         </div>
         <div class="ss-right">
@@ -199,9 +199,8 @@
         </div>
         <div class="ss-right ss-container-3">
             <h3>
-                <span>August 2013</span>
-                <div class="description">Two happy faces enjoying wings and beer after moving in together.
-</div>
+                <span>Feb 2022</span>
+                <div class="description">Description here .</div>
             </h3>
         </div>
     </div>
@@ -210,8 +209,8 @@
     <div class="ss-row ss-large">
         <div class="ss-left ss-container-4">
             <h3>
-                <span>August 2013</span>
-                <div class="description">Burning Man: We took the sleep when you're dead approach.  Caught up with us on the last night!</div>
+                <span>Jul 2022</span>
+                <div class="description">Make it intersting...!</div>
             </h3>
         </div>
         <div class="ss-right">
@@ -227,7 +226,7 @@
         <div class="ss-right ss-container-5">
             <h3>
                 <span>Seasonal</span>
-                <div class="description2">Sly Sly, oh what a guy! Tell us, How does your garden grow? With pep and vigour and zest and love. And vegetables all in a row.</div>
+                <div class="description2">B Boy..  Alaya..  B Boy..  Alaya..  B Boy..  Alaya..  B Boy..  Alaya..  B Boy..  Alaya..  B Boy..  Alaya..  B Boy..  Alaya..  B Boy..  Alaya..  B Boy..  Alaya..  B Boy..  Alaya..  </div>
                 
             </h3>
         </div>
@@ -237,9 +236,9 @@
     <div class="ss-row ss-large">
         <div class="ss-left ss-container-6">
             <h3>
-                <span>October 11, 2014</span>
-                <div class="description">Engagement: She knew she wanted a lumberjack. She got her one-of-a-kind, never-to-be-outdone Lumberjacques du Perron. Sylvain leaves Shona uncharacteristically speechless with a wooded proposal and spectacularly sparkling rock. It was grand, sweeping, romantic, utterly personal and heart-melting, complete with flannel, bad-ass workman suspenders, a belt buckle, axe and a chainsaw. Heee-llo. Characteristically 150% Perron sized in scope, thoughtfulness, creativity and love.</div>
-                 <a target="_blank"  href="https://www.youtube.com/watch?v=FrIHhZVaRYo&feature=youtu.be">Re-runs here.</a>
+                <span>OCt 2022</span>
+                <div class="description">Description here .</div>
+         
             </h3>
         </div>
         <div class="ss-right">
@@ -255,7 +254,7 @@
         <div class="ss-right ss-container-7">
             <h3>
                 <span>Everyday</span>
-                <div class="description">Love notes. We love our love notes.</div>
+                <div class="description">Day to day..  Description here </div>
             </h3>
         </div>
     </div>
@@ -264,8 +263,8 @@
     <div class="ss-row ss-large">
         <div class="ss-left ss-container-8">
             <h3>
-                <span>July 2014</span>
-                <div class="description">Otherworld: We kicked off our shoes, dipped into the primordial otherworldly soup and made ourselves a festival baby.</div>
+                <span>Dec  2023</span>
+                <div class="description">Description here .</div>
             </h3>
         </div>
         <div class="ss-right">
@@ -280,8 +279,8 @@
         </div>
         <div class="ss-right ss-container-9">
             <h3>
-                <span>March 7, 2015</span>
-                <div class="description">36 weeks in bloom.</div>
+                <span>Jan 2024</span>
+                <div class="description">Pregnancy Picture etc.</div>
             </h3>
         </div>
     </div>
@@ -290,8 +289,8 @@
     <div class="ss-row ss-large">
         <div class="ss-left ss-container-10" >
             <h3>
-                <span>March 26,2015</span>
-                <div class="description">Our little Sevi was born peacefully at home on a Thursday at the special hour of 1:11am.</div>
+                <span>May 07,2023</span>
+                <div class="description">Cococ ...  Carrot.</div>
             </h3>
         </div>
         <div class="ss-right">
@@ -313,16 +312,18 @@
 
     <div class="bimage">
         <!-- Image of the bride. Image dimensions: 1000px x 500px -->
-        <img src="images/A1.jpg">
+        <img src="images/Alaya.jpg">
+		 <h2>Alaya Boisvert</h2>
      </div>
-     <div class="bimage_shona">
-        <img src="images/shonaname.png">
+     
+	 <div class="bleft">
+      <p>Random text, you can say a bunch of things or not.  You can say a bunch of things or not. You can say a bunch of things or not.You can say a bunch of things or not. You can say a bunch of things or not.You can say a bunch of things or not.You can say a bunch of things or not.You can say a bunch of things or not.</p>
+     </div>
+
+    <div class="bright">
+        <p>And even more... and more more more. And even more... and more more more. And even more... and more more more. And even more... and more more more. And even more... and more more more. And even more... and more more more. And even more... and more more more. And even more... and more more more.	</p>
     </div>
 
-    <div class="bmiddle"><p>
-</ul></p></div>
-
-    <div class="bright"><p></p></div>
 </div>
 
 <!-- Groom section -->
@@ -332,7 +333,7 @@
     <div class="bimage2">
         <!-- Image of the groom. Image dimensions: 1000px x 500px -->
         <img src="images/Brendan.jpg">
-        <img src="images/sylvainname.jpg">
+         <h2>B Boy</h2>
     </div>
 
     <div class="bmiddle">
@@ -370,43 +371,24 @@
                             <!-- Groomsman 1 -->
                              <!-- Groomsman 2 -->
                             <div class="left">
-                                <img src="images/gonzo.gif"><br>
-                                <p>Rory Gonzolves</p>
+                                <img src="images/Groom1.gif"><br>
+                                <p>Best Man #1</p>
                             </div>
                            <div class="right">
-                                <img src="images/sheldon.gif"><br>
-                                <p>Sheldon Clit</p>
+                                <img src="images/Groom2.png"><br>
+                                <p>Best Man #2</p>
                             </div>
 
                             <div class="right">
-                                <img src="images/josh_caufield.gif"><br>
-                                <p>Josh Caulifield</p>
+                                <img src="images/Groom3.png"><br>
+                                <p>Best Man #4</p>
                             </div>
                             <!-- Groomsman 4 -->
                             <div class="left">
-                                <img src="images/scott.gif"><br>
-                                <p>Scott Tyson Meyer</p>
+                                <img src="images/Groom4.png"><br>
+                                <p>Best Man #3</p>
                             </div>
 
-                           
-
-                            <!-- Groomsman 3 -->
-                            <div class="right">
-                                <img src="images/daniele.gif"><br>
-                                <p>Daniele Mereu</p>
-                            </div>
-
-                           
-                            <!-- Groomsman 6 -->
-                            <div class="left">
-                                <img src="images/kevin.gif"><br>
-                                <p>Kevin Moore</p>
-                            </div>
-                             <!-- Groomsman 3 -->
-                            <div class="right">
-                                <img src="images/mike.gif"><br>
-                                <p>Mike Gano</p>
-                            </div>
 
 
                            
@@ -422,37 +404,34 @@
                             <img class="icon" src="images/flower.png">Bridesmaids
                             <img class="icon2" src="images/flower.png">
                             <span class="st-arrow">Open or Close</span>
+                            <span class="st-arrow">Open or Close</span>
                         </a>
 
                         <div class="st-content">
 
                             <!-- Bridesmaid 1 -->
                             <div class="left">
-                                <img src="images/danielle.gif"><br>
-                                <p>Danielle Meyer</p>
+                                <img src="images/bride1.png"><br>
+                                <p>Bridemaid #1</p>
                             </div>
 
                             <!-- Bridesmaid 2 -->
                             <div class="right">
-                                <img src="images/alaya.gif"><br>
-                                <p>Alaya Boisvert</p>
-                            </div>
-                            <!-- Bridesmaid 2 -->
-                            <div class="left">
-                                <img src="images/arielle.gif"><br>
-                                <p>Arielle Boisvert</p>
+                                <img src="images/bride2.png"><br>
+                                <p>Bride #2</p>
                             </div>
                             <!-- Bridesmaid 3 -->
+                            <div class="left">
+                                <img src="images/bride3.gif"><br>
+                                <p>#3</p>
+                            </div>
+                            <!-- Bridesmaid 4-->
                             <div class="right">
-                                <img src="images/sara.gif"><br>
-                                <p>Sarah Petrescu</p>
+                                <img src="images/bride3.gif"><br>
+                                <p>#4</p>
                             </div>
 
-                            <!-- Bridesmaid 4 -->
-                            <div class="left">
-                                <img src="images/lara.gif"><br>
-                                <p>Lara Matiation</p>
-                            </div>
+                          
 
                         </div>
 
@@ -466,20 +445,70 @@
 </div> <!-- Wedding Party End -->
 
 
+
+<div id="party2">
+    <h1>The Deeds</h1>
+   <div id="inligtingwrapDay1">
+     <div class="middleframe1">
+         <div class="infostripparty">Day 1</div>
+        <b><center><br><font size="8" color ="#ff3300">Are you ready? </font><font size="8" color ="#F433FF">It will be fun</font><font size="8" color ="#ff3300"> Can't Miss it.</center></font> 
+
+<p><br>Martinis...  Hiking .... laughing  Fun times</p>
+<font color ="#ff3300"><ul>
+
+        
+</div>
+</div>
+</div>
+
+<div id="party2">
+   <div id="inligtingwrapDay2">
+     <div class="middleframe2">
+         <div class="infostripparty">Day 2</div>
+        <b><center><br><font size="8" color ="#F433FF">Pool Party</font>
+
+<p><br>Time to get wet <br>Let's stick to some <u>house rules</u> so they invite us back:</p>
+<font color ="#ff3300"><ul>
+<li>*No peeing in the bush.
+<li>*No body paint.
+<li>*No diving. 
+<li>*Party your tushies off.
+</ul>
+
+        
+</div>
+</div>
+</div>
+
+<div id="party2">
+ 
+   <div id="inligtingwrapDay3">
+     <div class="middleframe3">
+         <div class="infostripparty">Day 3 - The Wedding Day</div>
+        <b><center><br><font size="8" color ="#FFFF00">Finally!!! </font><font size="8" color ="#F433FF">We are ready!</font><font size="8" color ="#ff3300"> Fun time ahead</center></font> 
+
+
+
+
+        
+</div>
+</div>
+</div>
+
 <!-- Info section -->
 <div id="info">
     <h1>Ceremony</h1>
     <div id="inligtingwrap">
       <div class="colleft">
         <div class="infostrip">Ready...Set...GO!</div>
-<p class="grey" style="font-weight:normal;"><b></b>
+		<p class="grey" style="font-weight:normal;"><b></b>
         <p>Date<br>
-            <span class="grey">15 August 2015</span>
+            <span class="grey">11 August 2026</span>
         </p>
          
         <p>Place<br>
-            <span class="grey">Selkrik Mansion<br>
-            934 Selkirk Ave<br>Victoria, BC
+            <span class="grey">Manfield Mansion<br>
+            934 Selkirk Ave<br>Gibson, BC
             </span>
         </p>
         <p>Dress<br>
@@ -487,19 +516,19 @@
             </span>
         </p>
                 
-<b><font color="#ff3300">Guest arrival time = 2:00 pm</font> </p>
+<b><font color="#00855B">Guest arrival time = 2:00 pm</font> </p>
             
         <p><b>The show begins at 2:30 pm so give yourself enough time to arrive, park and get a tasty bevy
 
 
-<p><br><b><font color="#ff3300">Then we day party</font></b>
-<br><span class="grey">Appies and bevies will be served; Sun will be shining; Music will be pumping.</span>
+<p><br><b><font color="#00855B">Then we day party</font></b>
+<br><span class="grey">Appies and bevies will be served; Sun will be shining; </span>
 
 
-<p><br><font color="#ff3300">Dinner at 6:00 pm</font>
+<p><br><font color="#00855B">Dinner at 6:00 pm</font>
 
-<p><br><font color="#ff3300">Followed by DANCING - The Neon Party!</font>
-<b><br>(In other words, costume change for those so inclined)</b>
+<p><br><font color="#00855B">Followed by DANCING</font>
+<b><br>(Time to celebrate)</b>
 
 <br><br>
                <a target="_blank" href="https://www.travelocity.ca/Hotel-Search?adults=2&children=&destination=Gibsons%2C%20British%20Columbia%2C%20Canada">
@@ -523,25 +552,6 @@
 </div>
 </div>
 <!--Info End-->
-<div id="party2">
-    <h1>The Party</h1>
-   <div id="inligtingwrapparty">
-     <div class="middleframe">
-         <div class="infostripparty">B Boy theme!</div>
-        <b><center><br><font size="8" color ="#FFFF00">Think glowing. </font><font size="8" color ="#F433FF">Think fluorescent.</font><font size="8" color ="#ff3300"> Think bold.</center></font> 
-
-<p><br>The Grant Family is opening their home to us all to enjoy and jubilate within. <br>Let's stick to some <u>house rules</u> so they invite us back:</p>
-<font color ="#ff3300"><ul><li>*Street parking only.
-<li>*No outside shoes indoors (bring your party slippers).
-<li>*No body paint (faces okay).
-<li>*Respect the neighbours and keep your drunk-ass voices down at night. 
-<li>*Dance your tushies off.
-<li>*Costumes encouraged!</ul>
-
-        
-    </div>
-</div>
-</div>
 
 <div class="photostrip1"></div>
 
@@ -554,7 +564,7 @@
 
 <div id="gallery">
     <h1>Look, it's us again!</h1>
-	<ul>(Click on the picture for details}</ul>
+		 <h3>(Click on the picture for details}</h3>
     <div class="gallerywrapper">
 
     <div class="thumb">
@@ -662,7 +672,7 @@
 <!-- RSVP Section -->
 <div id="rsvp">
     <h1>YoU In Or WhAt?!</h1>
-    <p>Questions? Please email, text or call!<br><a href="mailto:slyandsho@gmail.com">Alaya_Brendan@gmail.com</a><br> <br>604 562 2779 (Alaya) / 604 356 8829 (B-Boy).</p>
+    <p>Questions? Please email, text or call!<br><a href="mailto:AlayaBrendan@gmail.com">AlayaBrendan@gmail.com</a><br> <br>604 562 2779 (Alaya) / 604 356 8829 (B-Boy).</p>
   </div>
 <section>
 <div class="rsvpcontainer">
@@ -690,7 +700,7 @@
 <!-- Design by section | Feel free to remove this :) -->
 
 <div id="footer">
-      Website designed with love for Alaya and Brendan
+      <font color="#00855B"> Website designed with love for Alaya and Brendan
     </div>
 
 </div> <!--Wrap End-->
