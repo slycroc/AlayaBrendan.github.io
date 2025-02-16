@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Alaya and Brendan's Wedding</title>
+
+    <!-- This is the description that will appear on google when people search for your site -->
+    <meta name="description" content="Alaya and Brendan are getting hitched!">
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Icon in browser tab incase you want to change it -->
+    <link rel="shortcut icon" href="images/icon.png"/>
+
+    <link rel="stylesheet" type="text/css" href="fonts/stylesheet.css" />
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link type="text/css" rel="stylesheet" href="css/mmenu.css" />
+
+    <script type="text/javascript" language="javascript" src="js/jquery.js"></script>
+
+    <!-- Supersize - script for main background image -->
+    <script type="text/javascript" src="js/supersized.core.3.2.1.min.js"></script>
+
+    <!-- This is the link to the main bacbground image. Image dimensions: 1400px x 824px -->
+    <script type="text/javascript">
+     jQuery(function($){
+        $.supersized({
+           slides  :  	[ {image : 'images/mainbg.jpg'} ]
+       });
+    });
+ </script>
+
+ <!--Supersize end-->
+
+		<!--[if lt IE 9]>
+			<link rel="stylesheet" type="text/css" href="css/styleIE.css" />
+        <![endif]-->
+            
+    <script type="text/javascript" src="js/modernizr.custom.11333.js"></script>
+
+    <!-- FancyBox JS and CSS - Popup images from gallery -->
+    <script type="text/javascript" src="source/jquery.fancybox.js"></script>
+    <link rel="stylesheet" type="text/css" href="source/jquery.fancybox.css" media="screen" />
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+		/* Simple image gallery. Uses default settings */
+
+          $(".fancybox").fancybox({
+             helpers : {
+              title: {
+                  type: 'inside'
+              }
+          }
+      });
+
+      });
+    </script>
+
+    <!-- Styles for map -->
+    <link rel="stylesheet" href="css/leaflet.css" />
+ 
+ <!--[if lte IE 8]>
+    <link rel="stylesheet" href="css/leaflet.ie.css" />
+<![endif]-->
+     <script src="https://api.tiles.mapbox.com/mapbox.js/v1.6.2/mapbox.js"></script>
+   <!-- <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />-->
+   <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+
+</head>
+
+<body>
+
+    <!-- Screen Navigation -->
+    <div id="navigation">
+       <div id="navwrap">
+
+          <div id="navleft">
+            <ul>
+                <li><a href="#ourstory">Our Story</a></li>
+                <li><a href="#bride">Bride</a></li>
+                <li><a href="#groom">Groom</a></li>
+                <li><a href="#party">Wedding party</a></li>
+            </ul>
+        </div>
+
+        <!-- Main logo. Dimensions: 260px x 85px -->
+        <div id="logo">
+            <a href="#home"><img style="border:none; outline:none;" src="images/logo.jpg"></a>
+        </div>
+
+            <div id="navright">
+                <ul>
+                    <li><a href="#info">Ceremony</a></li>
+                    <li><a href="#party2">Party</a></li>
+                    <li><a href="#gallery">Pics</a></li>
+                    <li><a href="#rsvp">RSVP</a></li>
+                </ul>
+            </div>
+
+        </div>
+</div> 
+<!--Screen Navigation End-->
+
+
+
+ 
+<!-- Responsive / Mobile Navigation -->
+<div id="nav">
+    
+    
+    <!-- Logo2 dimensions: 260px x 60px -->
+    <div id="dl-menu" class="dl-menuwrapper">
+        <div id="logo2">
+            <a href="#home">
+                <img style="border:none; outline:none;" src="images/logo2.jpg">
+            </a>
+        </div>
+
+
+    <!-- Logo3 dimensions: 130px x 50px -->
+    <div id="logo3">
+        <a href="#home">
+            <img style="border:none; outline:none;" src="images/logo3.jpg">
+        </a>
+    </div>
+
+    <!-- Mobile Dropdown menu -->
+    <button>Menu</button>
+        <ul class="dl-menu">
+            <li><a href="#ourstory">Our Story</a></li>
+            <li><a href="#bride">Bride</a></li>
+            <li><a href="#groom">Groom</a></li>
+            <li><a href="#party">Wedding party</a></li>
+            <li><a href="#info">Ceremony</a></li>
+            <li><a href="#party2">Party</a></li>
+            <li><a href="#gallery">Pics</a></li>
+            <li><a href="#rsvp">RSVP</a></li>
+        </ul>
+    </div><!-- /dl-menuwrapper -->
+</div>
+<!--Responsive Navigation End-->
+
+<!-- Home // No need to change anything here -->
+<div id="home">
+     <div id="initialblur" class="right-aligned">
+          <img src="images/beautiful-bride.png">
+       
+      </div>
+</div>
+
+<!--Home End-->
+
+
+
+<div id="wrap">
+
+  <!-- Our story -->
+  <!-- Each circle has an additional class called 'ss-circle-1', 'ss-circle-2' etc. These are for the background images inside the circles. You can change these images inside the style.css file (line 518) -->
+
+  <div id="ourstory">
+    <h1>Our Story</h1>
+    <div id="ss-container" class="ss-container">
+
+
+
+    <div class="ss-row ss-large">
+        <div class="ss-left">
+            <a class="ss-circle ss-circle-1"></a>
+        </div>
+        <div class="ss-right ss-container-1">
+            <h3>
+                <span>Easter Weekend 2013</span>
+                <div class="description">Two big hearts with a passion for love and life. Having so many amazing friends in common with as much a penchant for entertaining as we do, we've been orbiting each other's worlds since first meeting at Val and Jameson's in 2010. Those worlds collided on a more personal level in 2013 when rocket-fuel-powered falling in love ensued. Soooooo good.... Here we are atop Mount Doug enjoying the gorgeous sunshine and some bubbly.</div>
+            </h3>
+        </div>
+    </div>
+
+
+    <div class="ss-row ss-large">
+        <div class="ss-left ss-container-2">
+            <h3>
+                <span>Spring 2013</span>
+                <div class="description2">Our Vancouver Island thrift store road trip where we stopped at every thrift and second hand store from Victoria to Nanaimo hunting for Burning Man costumes and other treasures.</div>
+            </h3>
+        </div>
+        <div class="ss-right">
+            <a class="ss-circle ss-circle-2"></a>
+        </div>
+    </div>
+
+
+    <div class="ss-row ss-large">
+        <div class="ss-left">
+            <a class="ss-circle ss-circle-3"></a>
+        </div>
+        <div class="ss-right ss-container-3">
+            <h3>
+                <span>August 2013</span>
+                <div class="description">Two happy faces enjoying wings and beer after moving in together.
+</div>
+            </h3>
+        </div>
+    </div>
+
+
+    <div class="ss-row ss-large">
+        <div class="ss-left ss-container-4">
+            <h3>
+                <span>August 2013</span>
+                <div class="description">Burning Man: We took the sleep when you're dead approach.  Caught up with us on the last night!</div>
+            </h3>
+        </div>
+        <div class="ss-right">
+            <a class="ss-circle ss-circle-4"></a>
+        </div>
+    </div>
+
+
+    <div class="ss-row ss-large">
+        <div class="ss-left">
+            <a class="ss-circle ss-circle-5"></a>
+        </div>
+        <div class="ss-right ss-container-5">
+            <h3>
+                <span>Seasonal</span>
+                <div class="description2">Sly Sly, oh what a guy! Tell us, How does your garden grow? With pep and vigour and zest and love. And vegetables all in a row.</div>
+                
+            </h3>
+        </div>
+    </div>
+
+
+    <div class="ss-row ss-large">
+        <div class="ss-left ss-container-6">
+            <h3>
+                <span>October 11, 2014</span>
+                <div class="description">Engagement: She knew she wanted a lumberjack. She got her one-of-a-kind, never-to-be-outdone Lumberjacques du Perron. Sylvain leaves Shona uncharacteristically speechless with a wooded proposal and spectacularly sparkling rock. It was grand, sweeping, romantic, utterly personal and heart-melting, complete with flannel, bad-ass workman suspenders, a belt buckle, axe and a chainsaw. Heee-llo. Characteristically 150% Perron sized in scope, thoughtfulness, creativity and love.</div>
+                 <a target="_blank"  href="https://www.youtube.com/watch?v=FrIHhZVaRYo&feature=youtu.be">Re-runs here.</a>
+            </h3>
+        </div>
+        <div class="ss-right">
+            <a class="ss-circle ss-circle-6"></a>
+        </div>
+    </div>
+
+
+    <div class="ss-row ss-large">
+        <div class="ss-left">
+            <a class="ss-circle ss-circle-7"></a>
+        </div>
+        <div class="ss-right ss-container-7">
+            <h3>
+                <span>Everyday</span>
+                <div class="description">Love notes. We love our love notes.</div>
+            </h3>
+        </div>
+    </div>
+
+
+    <div class="ss-row ss-large">
+        <div class="ss-left ss-container-8">
+            <h3>
+                <span>July 2014</span>
+                <div class="description">Otherworld: We kicked off our shoes, dipped into the primordial otherworldly soup and made ourselves a festival baby.</div>
+            </h3>
+        </div>
+        <div class="ss-right">
+            <a class="ss-circle ss-circle-8"></a>
+        </div>
+    </div>
+
+
+    <div class="ss-row ss-large">
+        <div class="ss-left">
+            <a class="ss-circle ss-circle-9"></a>
+        </div>
+        <div class="ss-right ss-container-9">
+            <h3>
+                <span>March 7, 2015</span>
+                <div class="description">36 weeks in bloom.</div>
+            </h3>
+        </div>
+    </div>
+
+
+    <div class="ss-row ss-large">
+        <div class="ss-left ss-container-10" >
+            <h3>
+                <span>March 26,2015</span>
+                <div class="description">Our little Sevi was born peacefully at home on a Thursday at the special hour of 1:11am.</div>
+            </h3>
+        </div>
+        <div class="ss-right">
+            <a class="ss-circle ss-circle-10"></a>
+        </div>
+    </div>
+ </div>
+
+
+<div class="clr"></div>
+
+<!-- Background photos between sections are called 'photostrip'. Change these images in style.css file, line 1068. Image dimensions: 1400px x 918px-->
+<div class="photostrip2"></div>
+
+
+<!-- Bride section -->
+<div id="bride">
+    <h1>The Bride</h1>
+
+    <div class="bimage">
+        <!-- Image of the bride. Image dimensions: 1000px x 500px -->
+        <img src="images/A1.jpg">
+     </div>
+     <div class="bimage_shona">
+        <img src="images/shonaname.png">
+    </div>
+
+    <div class="bmiddle"><p>
+</ul></p></div>
+
+    <div class="bright"><p></p></div>
+</div>
+
+<!-- Groom section -->
+<div id="groom">
+    <h1>The Groom</h1>
+
+    <div class="bimage2">
+        <!-- Image of the groom. Image dimensions: 1000px x 500px -->
+        <img src="images/Brendan.jpg">
+        <img src="images/sylvainname.jpg">
+    </div>
+
+    <div class="bmiddle">
+      <p></p>
+    </div>
+
+    <div class="bright">
+        <p></p>
+    </div>
+
+
+</div>
+
+
+      <div class="photostrip4"></div>
+
+
+      <!-- Wedding Party section -->
+      <div id="party">
+        <h1>Wedding Party</h1>
+        <div class="wrapper">
+            <div id="st-accordion" class="st-accordion">
+                <ul>
+                    
+                    <!-- Groomsman section -->
+                    <li>
+                        <a>
+                            <img class="icon" src="images/moustache.png">Groomsmen
+                            <img class="icon2" src="images/moustache.png">
+                            <span class="st-arrow">Open or Close</span>
+                        </a>
+
+                        <div class="st-content">
+
+                            <!-- Groomsman 1 -->
+                             <!-- Groomsman 2 -->
+                            <div class="left">
+                                <img src="images/gonzo.gif"><br>
+                                <p>Rory Gonzolves</p>
+                            </div>
+                           <div class="right">
+                                <img src="images/sheldon.gif"><br>
+                                <p>Sheldon Clit</p>
+                            </div>
+
+                            <div class="right">
+                                <img src="images/josh_caufield.gif"><br>
+                                <p>Josh Caulifield</p>
+                            </div>
+                            <!-- Groomsman 4 -->
+                            <div class="left">
+                                <img src="images/scott.gif"><br>
+                                <p>Scott Tyson Meyer</p>
+                            </div>
+
+                           
+
+                            <!-- Groomsman 3 -->
+                            <div class="right">
+                                <img src="images/daniele.gif"><br>
+                                <p>Daniele Mereu</p>
+                            </div>
+
+                           
+                            <!-- Groomsman 6 -->
+                            <div class="left">
+                                <img src="images/kevin.gif"><br>
+                                <p>Kevin Moore</p>
+                            </div>
+                             <!-- Groomsman 3 -->
+                            <div class="right">
+                                <img src="images/mike.gif"><br>
+                                <p>Mike Gano</p>
+                            </div>
+
+
+                           
+
+                        </div>
+                    </li>
+                    <!-- Groomsmen end -->
+
+
+                    <!-- Bridesmaids section -->
+                    <li>
+                        <a>
+                            <img class="icon" src="images/flower.png">Bridesmaids
+                            <img class="icon2" src="images/flower.png">
+                            <span class="st-arrow">Open or Close</span>
+                        </a>
+
+                        <div class="st-content">
+
+                            <!-- Bridesmaid 1 -->
+                            <div class="left">
+                                <img src="images/danielle.gif"><br>
+                                <p>Danielle Meyer</p>
+                            </div>
+
+                            <!-- Bridesmaid 2 -->
+                            <div class="right">
+                                <img src="images/alaya.gif"><br>
+                                <p>Alaya Boisvert</p>
+                            </div>
+                            <!-- Bridesmaid 2 -->
+                            <div class="left">
+                                <img src="images/arielle.gif"><br>
+                                <p>Arielle Boisvert</p>
+                            </div>
+                            <!-- Bridesmaid 3 -->
+                            <div class="right">
+                                <img src="images/sara.gif"><br>
+                                <p>Sarah Petrescu</p>
+                            </div>
+
+                            <!-- Bridesmaid 4 -->
+                            <div class="left">
+                                <img src="images/lara.gif"><br>
+                                <p>Lara Matiation</p>
+                            </div>
+
+                        </div>
+
+                    </li>
+                    <!-- Bridesmaids end -->
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</div> <!-- Wedding Party End -->
+
+
+<!-- Info section -->
+<div id="info">
+    <h1>Ceremony</h1>
+    <div id="inligtingwrap">
+      <div class="colleft">
+        <div class="infostrip">Ready...Set...GO!</div>
+<p class="grey" style="font-weight:normal;"><b></b>
+        <p>Date<br>
+            <span class="grey">15 August 2015</span>
+        </p>
+         
+        <p>Place<br>
+            <span class="grey">Selkrik Mansion<br>
+            934 Selkirk Ave<br>Victoria, BC
+            </span>
+        </p>
+        <p>Dress<br>
+            <span class="grey">Garden wedding attire
+            </span>
+        </p>
+                
+<b><font color="#ff3300">Guest arrival time = 2:00 pm</font> </p>
+            
+        <p><b>The show begins at 2:30 pm so give yourself enough time to arrive, park and get a tasty bevy
+
+
+<p><br><b><font color="#ff3300">Then we day party</font></b>
+<br><span class="grey">Appies and bevies will be served; Sun will be shining; Music will be pumping.</span>
+
+
+<p><br><font color="#ff3300">Dinner at 6:00 pm</font>
+
+<p><br><font color="#ff3300">Followed by DANCING - The Neon Party!</font>
+<b><br>(In other words, costume change for those so inclined)</b>
+
+<br><br>
+               <a target="_blank" href="https://www.travelocity.ca/Hotel-Search?adults=2&children=&destination=Gibsons%2C%20British%20Columbia%2C%20Canada">
+               Place to sleep
+               </a>
+                
+</span>
+        </div>	
+
+        <!-- Map section with markers. These markers can be changed using the location's GPS coordinates inside the map-popups.js file in the js folder. -->
+        <div class="colright">
+            <div class="infostrip">Location
+            </div>
+            
+            <div id="mapcontainer">
+                <div id="map">
+                </div>
+            </div>
+    </div>
+
+</div>
+</div>
+<!--Info End-->
+<div id="party2">
+    <h1>The Party</h1>
+   <div id="inligtingwrapparty">
+     <div class="middleframe">
+         <div class="infostripparty">B Boy theme!</div>
+        <b><center><br><font size="8" color ="#FFFF00">Think glowing. </font><font size="8" color ="#F433FF">Think fluorescent.</font><font size="8" color ="#ff3300"> Think bold.</center></font> 
+
+<p><br>The Grant Family is opening their home to us all to enjoy and jubilate within. <br>Let's stick to some <u>house rules</u> so they invite us back:</p>
+<font color ="#ff3300"><ul><li>*Street parking only.
+<li>*No outside shoes indoors (bring your party slippers).
+<li>*No body paint (faces okay).
+<li>*Respect the neighbours and keep your drunk-ass voices down at night. 
+<li>*Dance your tushies off.
+<li>*Costumes encouraged!</ul>
+
+        
+    </div>
+</div>
+</div>
+
+<div class="photostrip1"></div>
+
+<!-- Gallery section -->
+<!-- For each image there is this: <a class="fancybox" href="images/gallery1b.jpg"
+// All images ending with the letter 'b' refers to 'big', then there will be an image inside each of these that ends with an 's' referring to small.
+// The small images are displayed when the page is loaded and when they get clicked the big image will open in a little popup.
+// The 'title' attribute will be the text that gets displayed underneath the big image when it opens in the popup.
+// Image dimensions; small: 240px x 240px. big: 612px x 612px -->
+
+<div id="gallery">
+    <h1>Look, it's us again!</h1>
+	<ul>(Click on the picture for details}</ul>
+    <div class="gallerywrapper">
+
+    <div class="thumb">
+        <a class="fancybox" href="images/gallery1b.jpg" data-fancybox-group="gallery" title="Sechelt 2024">
+            <img src="images/gallery1s.jpg" alt="" style="border:0; outline:0;" />
+        </a>
+    </div>
+
+    <div class="thumb">
+        <a class="fancybox" href="images/gallery2b.jpg" data-fancybox-group="gallery" title="Give me a description">
+            <img src="images/gallery2s.jpg" alt="" style="border:0; outline:0;" />
+        </a>
+    </div>
+
+    <div class="thumb">
+        <a class="fancybox" href="images/gallery3b.jpg" data-fancybox-group="gallery" title="Give me a description">
+            <img src="images/gallery3s.jpg" alt="" style="border:0; outline:0;" />
+        </a>
+    </div>
+
+    <div class="thumb">
+        <a class="fancybox" href="images/gallery4b.jpg" data-fancybox-group="gallery" title="Give me a description">
+            <img src="images/gallery4s.jpg" alt="" style="border:0; outline:0;" />
+        </a>
+    </div>
+
+    <div class="thumb">
+        <a class="fancybox" href="images/gallery5b.jpg" data-fancybox-group="gallery" title="Give me a description">
+            <img src="images/gallery5s.jpg" alt="" style="border:0; outline:0;" />
+        </a>
+    </div>
+
+    <div class="thumb">
+        <a class="fancybox" href="images/gallery6b.jpg" data-fancybox-group="gallery" title="Give me a description">
+            <img src="images/gallery6s.jpg" alt="" style="border:0; outline:0;" />
+        </a>
+    </div>
+
+    <div class="thumb">
+        <a class="fancybox" href="images/gallery7b.jpg" data-fancybox-group="gallery" title="Give me a description">
+            <img src="images/gallery7s.jpg" alt="" style="border:0; outline:0;" />
+        </a>
+    </div>
+
+    <div class="thumb">
+        <a class="fancybox" href="images/gallery8b.jpg" data-fancybox-group="gallery" title="Give me a description">
+            <img src="images/gallery8s.jpg" alt="" style="border:0; outline:0;" />
+        </a>
+    </div>
+
+    <div class="thumb">
+        <a class="fancybox" href="images/gallery9b.jpg" data-fancybox-group="gallery" title="Give me a description">
+            <img src="images/gallery9s.jpg" alt="" style="border:0; outline:0;" />
+        </a>
+    </div>
+
+    <div class="thumb">
+        <a class="fancybox" href="images/gallery10b.jpg" data-fancybox-group="gallery" title="Give me a description">
+            <img src="images/gallery10s.jpg" alt="" style="border:0; outline:0;" />
+        </a>
+    </div>
+
+    <div class="thumb">
+        <a class="fancybox" href="images/gallery11b.jpg" data-fancybox-group="gallery" title="Give me a description">
+            <img src="images/gallery11s.jpg" alt="" style="border:0; outline:0;" />
+        </a>
+    </div>
+
+   <div class="thumb">
+        <a class="fancybox" href="images/gallery12b.jpg" data-fancybox-group="gallery" title="Give me a description">
+            <img src="images/gallery12s.jpg" alt="" style="border:0; outline:0;" />
+        </a>
+    </div>
+    
+    <div class="thumb">
+        <a class="fancybox" href="images/gallery13b.jpg" data-fancybox-group="gallery" title="Give me a description">
+            <img src="images/gallery13s.jpg" alt="" style="border:0; outline:0;" />
+        </a>
+    </div>
+
+    <div class="thumb">
+        <a class="fancybox" href="images/gallery14b.jpg" data-fancybox-group="gallery" title="Give me a description">
+            <img src="images/gallery14s.jpg" alt="" style="border:0; outline:0;" />
+        </a>
+    </div>
+
+    <div class="thumb">
+        <a class="fancybox" href="images/gallery15b.jpg" data-fancybox-group="gallery" title="Give me a description">
+            <img src="images/gallery15s.jpg" alt="" style="border:0; outline:0;" />
+        </a>
+    </div>
+
+    <div class="thumb">
+        <a class="fancybox" href="images/gallery16b.jpg" data-fancybox-group="gallery" title="Give me a description">
+            <img src="images/gallery16s.jpg" alt="" style="border:0; outline:0;" />
+        </a>
+    </div>
+
+
+  </div>
+</div> <!--gallery end-->
+
+<div class="photostrip3"></div>
+
+<!-- RSVP Section -->
+<div id="rsvp">
+    <h1>YoU In Or WhAt?!</h1>
+    <p>Questions? Please email, text or call!<br><a href="mailto:slyandsho@gmail.com">Alaya_Brendan@gmail.com</a><br> <br>604 562 2779 (Alaya) / 604 356 8829 (B-Boy).</p>
+  </div>
+<section>
+<div class="rsvpcontainer">
+      <div class="rsvpcontainer">
+        <h1>RSVP by June 22th</h1>
+        <br>
+      </div>
+
+  
+       
+      <form action="https://docs.google.com/forms/d/1rm4hf-GkoR59SGa8HUD4DG08Du4fYdPc4mXBlTYzWGc/viewform?usp=send_form" target="_blank" >
+         <input type="submit" class="css_button" value="Submit RSVP">
+       </form>
+       <br>
+       <br>
+              
+         
+        
+        
+ 
+   </div>
+</section> 
+    
+
+<!-- Design by section | Feel free to remove this :) -->
+
+<div id="footer">
+      Website designed with love for Alaya and Brendan
+    </div>
+
+</div> <!--Wrap End-->
+
+
+
+<!--Scripts Our Story-->
+
+<map type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/ourstory.js"></script>
+<!--Scripts Our Story End-->
+
+
+<!-- Accordion scripts - Wedding Party -->
+<script type="text/javascript" src="js/jquery.accordion.js"></script>
+<script type="text/javascript">
+    $(function() {
+       $('#st-accordion').accordion();
+    });
+</script>
+
+<!-- Script Responsive menu --> 
+<script src="js/jquery.dlmenu.js"></script>
+<script>
+ $(function() {
+    $( '#dl-menu' ).dlmenu();
+});
+</script>
+
+
+<!-- Smoothscroll -->
+<script type="text/javascript" src="js/smooth-scroll.js"></script>
+
+<script type="text/javascript">
+   $(document).ready(function() {
+
+      $('#navwrap a, #nav a').smoothScroll();
+
+      $('p.subnav a').click(function(event) {
+        event.preventDefault();
+        var link = this;
+        $.smoothScroll({
+
+        });
+    });
+
+      $('button.scrollsomething').click(function() {
+        $.smoothScroll({
+          scrollElement: $('div.scrollme'),
+          scrollTarget: '#findme'
+      });
+        return false;
+    });
+      $('button.scrollhorz').click(function() {
+        $.smoothScroll({
+          direction: 'left',
+          scrollElement: $('div.scrollme'),
+          scrollTarget: '.horiz'
+      });
+        return false;
+    });
+
+  });
+
+</script>
+<!-- Smoothscroll end--> 
+
+
+<script type="text/javascript">
+ (function(){
+
+		/**
+		CONFIGURATION:
+		Define the size of our background image
+		*/
+		var bgImageSize = {
+          width: 1400,
+          height: 918
+      };
+
+      /*END CONFIGURATION */
+
+  })();
+
+</script>  
+
+
+<!-- map --> 
+<script>
+        // Initialize the map and set its view
+        var map = L.map('map').setView([49.41260270970647, -123.5690389849176], 11);
+
+        // Add a tile layer (OpenStreetMap)
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+
+        // Disable zoom handlers
+        map.touchZoom.disable();
+        map.doubleClickZoom.disable();
+        map.scrollWheelZoom.disable();
+
+        // Disable tap handler, if present
+        if (map.tap) map.tap.disable();
+    </script>
+
+
+
+  <!-- This file contains the little map markers that can be changed to show different activities or accomodation -->
+  <script type="text/javascript" src="js/map-popups.js"></script>
+
+<!-- map end --> 
+
+</body>
+</html>
