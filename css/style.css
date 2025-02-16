@@ -1075,7 +1075,7 @@ h2.ss-subtitle:after{
 	margin-bottom:10px;
 
 }
-#inligtingwrapDay1{
+#inligtingwrapday1{
 	width:100%;
 	max-width:1000px;
 	margin:0% auto;
@@ -1093,7 +1093,7 @@ h2.ss-subtitle:after{
 	float:left;
 	overflow:hidden;
 	background-color:#FFF;
-	background: url(../images/Day1.png);
+	background: url(../images/day1.png);
 	background-size: 100% 100%;
 	text-align:center;
 	font-size:25px;
@@ -1101,7 +1101,7 @@ h2.ss-subtitle:after{
 	margin-bottom: 20px;
 	
 }
-#inligtingwrapDay2{
+#inligtingwrapday2{
 	width:100%;
 	max-width:1000px;
 	margin:0% auto;
@@ -1119,7 +1119,7 @@ h2.ss-subtitle:after{
 	float:left;
 	overflow:hidden;
 	background-color:#FFF;
-	background: url(../images/Day2.jpg);
+	background: url(../images/day2.jpg);
 	background-size: 100% 100%;
 	text-align:center;
 	font-size:25px;
@@ -1127,7 +1127,7 @@ h2.ss-subtitle:after{
 	margin-bottom: 20px;
 	
 }
-#inligtingwrapDay3{
+#inligtingwrapday3{
 	width:100%;
 	max-width:1000px;
 	margin:0% auto;
